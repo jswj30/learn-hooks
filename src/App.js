@@ -1,11 +1,13 @@
 import React from 'react';
-import InputBasic from './component/InputBasic';
+// import InputBasic from './component/InputBasic';
+import ChangeCss from './component/ChangeCss';
 
 const App = () => {
   
   return (
     <div>
-      <InputBasic />
+      <ChangeCss />
+      {/* <InputBasic /> */}
     </div>
   );
 }
