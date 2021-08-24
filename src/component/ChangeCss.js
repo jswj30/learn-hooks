@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 
 const ChangeCss = () => {
   const name = ['ABC', 'DEF'];
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState("");
 
   return (
     <Container>
